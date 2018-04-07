@@ -5,7 +5,8 @@
       {% for sponsor in site.sponsors %}
       <div class="col-6 col-md-4">
         <a href="{{ sponsor.url }}">
-          <img src="{{ site.baseurl }}/assets/imgs/{{ sponsor.image }}" alt="{{ sponsor.name }}">
+          <img src="{{ site.baseurl }}/assets/imgs/{{ sponsor.image }}"
+          width="100%" alt="{{ sponsor.name }}">
         </a>
       </div>
       {% endfor %}

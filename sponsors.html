@@ -14,12 +14,14 @@ permalink: /sponsors/
 <div class="container" style="padding-top:32px; padding-bottom:32px;">
   <div class="row">
     {% for sponsor in site.sponsors %}
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ sponsor.image }}" alt="{{ sponsor.name }}">
-      <div class="card-body">
-        <h5 class="card-title">{{ sponsor.name }}</h5>
-        <p class="card-text">{{ sponsor.desc }}</p>
-        <a href="{{ sponsor.url }}" class="btn btn-primary">웹사이트 방문</a>
+    <div class="col-sm">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ sponsor.image }}" alt="{{ sponsor.name }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ sponsor.name }}</h5>
+          <p class="card-text">{{ sponsor.desc }}</p>
+          <a href="{{ sponsor.url }}" class="btn btn-primary">웹사이트 방문</a>
+        </div>
       </div>
     </div>
     {% endfor %}

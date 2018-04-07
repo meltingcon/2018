@@ -4,13 +4,6 @@
   padding-bottom: 20vh;
 }
 
-.main-header > h1{
-  font-size: 5em;
-}
-.main-header > p{
-  font-size: 2em;
-}
-
 .box-left{
   text-align: left;
   padding-top: 32px;
