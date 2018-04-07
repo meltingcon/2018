@@ -1,0 +1,44 @@
+.main-header{
+  text-align: center;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+
+.main-header > h1{
+  font-size: 5em;
+}
+.main-header > p{
+  font-size: 2em;
+}
+
+.box-left{
+  text-align: left;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.box-right{
+  text-align: right;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.box-icon{
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-icon > i{
+  padding: 16px;
+}
+
+.page-header{
+  background: #ecf0f1;
+  padding: 32px;
+}
+
+.page-header i{
+  padding: 16px;
+}

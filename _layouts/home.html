@@ -1,0 +1,44 @@
+---
+layout: frame
+---
+<div class="main-header">
+  <h1>MeltingCon 2018</h1>
+  <p>개발자가 상팔자.</p>
+  <p>{{site.period}}<br>{{site.location}}</p>
+  <a role="button" class="btn btn-primary btn-lg"
+  href="{{ site.baseurl }}/registration/">
+    <i class="fas fa-ticket-alt"></i> 지금 등록하기</a>
+</div>
+
+<section style="background:#f1c40f;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-8 box-left">
+        <h1>멜팅콘을 소개합니다.</h1>
+        <p>멜팅콘(MeltingCon) 은 국내 다수의 개발자 커뮤니티와 IT 커뮤니티가 모인 커뮤니티 연합체이자,
+          <br>멜팅콘 커뮤니티 연합이 주최하는 컨퍼런스 입니다.</p>
+        <a role="button" class="btn btn-primary btn-lg" href="{{ site.baseurl }}/about">더 알아보기</a>
+      </div>
+      <div class="col-6 col-md-4 box-icon">
+        <i class="fas fa-users"></i>
+        <i class="far fa-handshake"></i>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="row">
+    <div class="col-6 col-md-4 box-icon">
+      <i class="far fa-comments"></i>
+      <i class="far fa-calendar-check"></i>
+    </div>
+    <div class="col-12 col-md-8 box-right">
+      <h1>컨퍼런스 일정</h1>
+      <p>올해 멜팅콘 컨퍼런스는 "개발자가 상팔자." 를 주제로 하여 다양한 프로그램을 준비했습니다.
+      <br>준비된 세션과 어떤 분들께서 발표를 하시는지 좀 더 자세히 알아보세요.</p>
+      <a role="button" class="btn btn-primary btn-lg" href="{{ site.baseurl }}/schedules">일정 확인하기</a>
+    </div>
+  </div>
+</div>
+{% include sponsors.html %}

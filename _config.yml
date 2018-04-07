@@ -1,0 +1,55 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: MeltingCon 2018
+email: meltingcon.kr@gmail.com
+description: MeltingCon 2018
+baseurl: "/2018" # the subpath of your site, e.g. /blog
+url: "https://meltingcon.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Usernames and API Keys
+github_username: meltingcon
+gmaps_embed_api_key: AIzaSyB94qSWPswDXOjd35pfzUpQduKzjJvPiRs
+
+# Location & time
+period: "2018년 05월 26일 오후 12:00 ~ 오후 7:00"
+location: "한국마이크로소프트한국(광화문 더케이트윈타워 A동 11층)"
+address: "서울특별시 종로구 중학동 종로 1길 50"
+location_query: "한국마이크로소프트"
+
+# Event Sponsors
+sponsors:
+  - name: Microsoft
+    image: microsoft.png
+    url: https://www.microsoft.com/ko-kr
+    desc: >
+      마이크로소프트의 목표와 가치는 전세계의 사람과 기업이 잠재력을 최대한 발휘할 수 있도록 돕는 것입니다.
+      Azure, Office 365, Windows 10, 서피스 등 다양한 소프트웨어, 하드웨어를 통하여 새로운 가치를 전달합니다.
+
+# Custom Collection
+collections:
+  sessions:
+    title: Sessions
+    output: true
+    permalink: "/session/:path"
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+exclude:
+  - Gemfile
+  - Gemfile.lock

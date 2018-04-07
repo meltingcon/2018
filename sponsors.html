@@ -1,0 +1,27 @@
+---
+layout: frame
+title: "스폰서"
+icon: <i class="far fa-building"></i><i class="far fa-handshake"></i>
+permalink: /sponsors/
+---
+<section class="page-header">
+  <div class="container">
+    <h1>{{ page.icon }}<h1>
+    <h1>{{ page.title }}</h1>
+    <p>행사를 열고 진행하는데 도움을 주신 분들입니다.</p>
+  </div>
+</section>
+<div class="container" style="padding-top:32px; padding-bottom:32px;">
+  <div class="row">
+    {% for sponsor in site.sponsors %}
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ sponsor.image }}" alt="{{ sponsor.name }}">
+      <div class="card-body">
+        <h5 class="card-title">{{ sponsor.name }}</h5>
+        <p class="card-text">{{ sponsor.desc }}</p>
+        <a href="{{ sponsor.url }}" class="btn btn-primary">웹사이트 방문</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
