@@ -16,7 +16,8 @@ permalink: /sponsors/
     {% for sponsor in site.sponsors %}
     <div class="col-sm">
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="{{ site.baseurl }}/assets/imgs/{{ sponsor.image }}" alt="{{ sponsor.name }}">
+        <img class="card-img-top" style="padding: 16px;"
+        src="{{ site.baseurl }}/assets/imgs/{{ sponsor.image }}" alt="{{ sponsor.name }}">
         <div class="card-body">
           <h5 class="card-title">{{ sponsor.name }}</h5>
           <p class="card-text">{{ sponsor.desc }}</p>
