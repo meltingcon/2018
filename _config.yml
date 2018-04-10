@@ -32,7 +32,7 @@ location_query: "한국마이크로소프트"
 # Event Sponsors
 sponsors:
   - name: Microsoft
-    image: microsoft.png
+    image: microsoft.svg
     url: https://www.microsoft.com/ko-kr
     desc: >
       마이크로소프트의 목표와 가치는 전세계의 사람과 기업이 잠재력을 최대한 발휘할 수 있도록 돕는 것입니다.
