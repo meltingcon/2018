@@ -7,7 +7,7 @@ permalink: /schedules/
 <ul class="nav nav-fill">
   {% assign tracks = site.sessions | group_by: 'track' %}
   {% for track in tracks %}
-  {% unless track.name contains "[" and "]" %}
+  {% unless track.name contains "," %}
   <li class="nav-item">
     <a class="nav-link active" data-toggle="collapse"
     href="#collapse_{{ forloop.index0 }}" aria-controls="collapse_{{ forloop.index0 }}"
@@ -19,8 +19,9 @@ permalink: /schedules/
 </ul>
 <div id="tracks">
 {% for track in tracks %}
+{% unless track.name contains "," %}
 <div id="collapse_{{ forloop.index0 }}"
-class="collapse {% if forloop.first == true %}show{% endif %}" data-parent="#tracks">
+class="collapse {% if forloop.index0 == 1 %}show{% endif %}" data-parent="#tracks">
   <div class="card-body">
     <h2>{{ track.name }}</h2>
     {% assign sessions = site.sessions | sort: 'order' %}
@@ -43,5 +44,6 @@ class="collapse {% if forloop.first == true %}show{% endif %}" data-parent="#tra
     {% endfor %}
   </div>
 </div>
+{% endunless %}
 {% endfor %}
 </div>
