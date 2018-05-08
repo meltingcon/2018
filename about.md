@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-nosponsors
 title: "멜팅콘(MeltingCon) 소개"
 icon: <i class="fas fa-users"></i><i class="far fa-handshake"></i>
 permalink: /about/
