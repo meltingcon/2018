@@ -3,6 +3,7 @@ layout: page
 title: "멜팅콘(MeltingCon) 소개"
 icon: <i class="fas fa-users"></i><i class="far fa-handshake"></i>
 permalink: /about/
+nosponsors: true
 ---
 ## 멜팅콘
 멜팅콘(MeltingCon) 은 국내 다수의 개발자 커뮤니티와 IT 커뮤니티가 모여 결성한 커뮤니티 연합체입니다.  
