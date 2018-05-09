@@ -6,8 +6,8 @@ track: Track C
 time: "2:40 ~ 3:30"
 duration: 50분
 speakers:
-  - name: 발표자 이름
-    org: 발표자 소속
+  - name: 정윤진
+    org: DevOps Korea
     desc: 발표자 소개
     image: ""
 ---
