@@ -20,7 +20,9 @@ layout: frame
   </h3><br>
     {% for speaker in page.speakers %}
       <div class="media">
-        <img class="mr-3" src="{{speaker.image}}" alt="{{speaker.name}}"
+        <img class="mr-3" 
+        {% if speaker.image != "" %} src="{{speaker.image}}" 
+        {% else %} src="{{site.baseurl}}/assets/imgs/placeholder.png" {% endif %} alt="{{speaker.name}}"
           style="height: 110px;">
         <div class="media-body">
           <h5 class="mt-0">{{speaker.name}}</h5>
