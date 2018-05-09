@@ -6,10 +6,10 @@ track: Track A
 time: "1:40 ~ 2:30"
 duration: 50분
 speakers:
-  - name: 남정현
-    org: 한국 Azure 사용자 그룹
-    desc: 한국 Azure 사용자 그룹에서 운영진을 맡고 있습니다.
-    image: ../assets/imgs/남정현.jpg
+  - name: 남정현
+    org: 한국 Azure 사용자 그룹
+    desc: 한국 Azure 사용자 그룹에서 운영진을 맡고 있습니다.
+    image: ../assets/imgs/남정현.jpg
 ---
 
 ## 개요
