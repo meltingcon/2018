@@ -9,7 +9,7 @@ speakers:
   - name: 유영천
     org: 모여서 각자 코딩하는 모임
     desc: OS를 만들고 싶은 게임 프로그래머
-    image: ../assets/imgs/.jpg
+    image: ../assets/imgs/유영천.JPG
 ---
 
 ## 개요
