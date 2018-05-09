@@ -9,7 +9,7 @@ speakers:
   - name: 김훈동
     org: 스파크 사용자 모임
     desc: 스사모(Korea Spark User Group) 운영진이며, BigData 와 AI 가 관련된 개발을 하고 있습니다.
-    image: ""
+    image: ../assets/imgs/김훈동.png
 ---
 
 ## 개요
