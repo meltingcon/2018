@@ -9,7 +9,7 @@ speakers:
   - name: 조성수
     org: 오픈스택 한국 커뮤니티
     desc: 하나만이라도 잘 했으면 하는 꿈을 가지고 삽질하는 사람입니다
-    image: ""
+    image: ../assets/imgs/조성수.jpg
 ---
 
 ## 개요
