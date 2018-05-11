@@ -6,10 +6,10 @@ permalink: /schedules/
 ---
 <div class="alert alert-info" role="alert">
   일정에 변동이 있을 수 있습니다. 자주 확인하셔서, 착오 없으시길 바랍니다.
-  <div align="center">
-    <img style="padding: 16px;"
-        src="{{ site.baseurl }}/assets/imgs/schedule.png" />
-  </div>
+</div>
+<div style="overflow: auto;" align="center">
+  <img style="padding: 16px;"
+      src="{{ site.baseurl }}/assets/imgs/schedule.png" />
 </div>
 <ul class="nav nav-fill">
   {% assign tracks = site.sessions | group_by: 'track' %}
