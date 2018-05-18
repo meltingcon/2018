@@ -1,7 +1,7 @@
 ---
 layout: session
 order: 4
-title: Object Storage 개발과 운영해보기
+title: PyCon 2018 참가기
 track: Track A
 time: "3:40 ~ 4:30"
 duration: 50분
@@ -13,5 +13,6 @@ speakers:
 ---
 
 ## 개요
-Openstack swift 는 Openstack 에서 제공하는 Open Source Object Storage 입니다. Object Storage 의 추가 기능을 개발하고 운영해본 경험담을 간단하게 공유합니다.
+미국 파이썬 컨퍼런스인 PyCon 2018 에 참가한 경험을 공유합니다. 그들이 컨퍼런스를 즐기는 방법, 문화, 프로그램 그리고 커뮤니티 등 PyCon에서 보고 듣고 배운 모든 것들을 이야기합니다. 영어를 잘 하지 못하는 제가 어떻게 해외 개발자 컨퍼런스에서 살아남았는지 들어보세요!
+
 ## 슬라이드 자료
