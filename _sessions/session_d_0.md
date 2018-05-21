@@ -8,7 +8,7 @@ duration: 50분
 speakers:
   - name: 유성민
     org: 모여서 각자 코딩하는 모임
-    desc: 개발이 중요하지 않은 회사에서 개발을 열심히하려는 개발자입니다.
+    desc: Fullstack을 바라는 Nullstack 개발자입니다.
     image: ../assets/imgs/유성민.JPG
 ---
 
