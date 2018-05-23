@@ -13,7 +13,7 @@ speakers:
   - name: 김영욱
     org: 한국 마이크로소프트
     desc: Microsoft 에서 일하고 있는 김영욱입니다. 주로 Microsoft의 Enterprise IoT와 Windows 10을 주 업무로 하고 있습니다. 전쟁사를 취미로 해서 최근에 개인저서인 'War of IT'를 출간했습니다. 전쟁사와 IT업체들의 트랜드를 엮어서 이야기하고 있습니다.
-    image: ../assets/imgs/김영욱.jpg
+    image: ../assets/imgs/김영욱.png
 ---
 
 ## 개요
