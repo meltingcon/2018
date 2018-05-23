@@ -30,6 +30,13 @@ address: "서울특별시 종로구 중학동 종로 1길 50"
 location_query: "한국마이크로소프트"
 
 # Event Sponsors
+supporters:
+  - name: 정보통신산업진흥원
+    image: nipa.png
+    url: https://www.nipa.kr
+    desc: >
+      정보통신산업을 효율적으로 지원하며 정보통신산업의 진흥기반을 조성함으로써
+      정보통신산업의 경쟁력을 강화하고, 국민 경제의 발전에 이바지합니다.
 sponsors:
   - name: Microsoft
     image: microsoft.svg

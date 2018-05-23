@@ -1,5 +1,19 @@
 <section style="background:#ecf0f1; padding-top:32px; padding-bottom:32px;">
   <div class="container">
+    <h2>후원</h2>
+    <div class="row">
+      {% for supporter in site.supporters %}
+      <div class="col-6 col-md-4">
+        <a href="{{ supporter.url }}">
+          <img src="{{ site.baseurl }}/assets/imgs/{{ supporter.image }}"
+          width="100%" alt="{{ supporter.name }}">
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <br /><br />
+  <div class="container">
     <h2>장소협찬</h2>
     <div class="row">
       {% for sponsor in site.sponsors %}
