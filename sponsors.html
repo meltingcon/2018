@@ -13,6 +13,23 @@ permalink: /sponsors/
 </section>
 <div class="container" style="padding-top:32px; padding-bottom:32px;">
   <div class="row">
+    {% for supporter in site.supporters %}
+    <div class="col-sm">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" style="padding: 16px;"
+        src="{{ site.baseurl }}/assets/imgs/{{ supporter.image }}" alt="{{ supporter.name }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ supporter.name }}</h5>
+          <p class="card-text">{{ supporter.desc }}</p>
+          <a href="{{ supporter.url }}" class="btn btn-primary">웹사이트 방문</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+<div class="container" style="padding-top:32px; padding-bottom:32px;">
+  <div class="row">
     {% for sponsor in site.sponsors %}
     <div class="col-sm">
       <div class="card" style="width: 18rem;">
