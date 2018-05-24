@@ -1,7 +1,7 @@
 ---
 layout: session
 order: 7
-title: 경품 추첨 & 행사 마무리
+title: (Close Session) Meltingcon | Community As an Alliance
 track:
   - Track A
   - Track B
@@ -11,4 +11,4 @@ time: "5:40 ~ 6:00"
 duration: 20분
 
 ---
-준비된 경품을 추첨을 통해 나눈 다음, 행사를 마무리 하는 시간입니다.
+Modern IT, Modern Workplace 시대에 현재 국내 IT커뮤니티들의 흐름을 짚어보고, 멜팅콘의 "Community As an Alliance" 의미와 앞으로의 방향을 설명합니다.
