@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: "멜팅콘(MeltingCon) 소개"
 icon: <i class="fas fa-users"></i><i class="far fa-handshake"></i>
@@ -13,6 +13,7 @@ nosponsors: true
 멜팅콘 커뮤니티 연합체에 적극적으로 참여 중인 커뮤니티 목록은 아래와 같습니다 (가나다순).
 
 -  [GoDev](#)
+-  [데이터그램](https://www.facebook.com/groups/datergram/)
 -  [모여서 각자 코딩하는 모임](https://www.facebook.com/groups/mogaco/)
 -  [VueJS 사용자 그룹](https://www.facebook.com/groups/vuejs.korea/about/)
 -  [스파크 사용자 모임](https://www.facebook.com/groups/sparkkoreauser/)
@@ -29,7 +30,6 @@ MeltingCon 2018은 커뮤니티 연합으로 공동 개최되는 행사로, 참�
 
 - [9XD](https://www.facebook.com/groups/9xdevelopers/)
 - [DevOps Korea](http://www.devopskorea.com)
-- [데이터그램](https://www.facebook.com/groups/datergram/)
 - [seoul.js](https://seoul.js.org)
 
 ## 멜팅콘 연합 행사 목록
