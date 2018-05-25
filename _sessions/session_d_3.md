@@ -1,13 +1,13 @@
 ---
 layout: session
 order: 5
-title: 기술서 번역이 개발자에게 주는 영향에 대하여 (Ver 1.5)
+title: 기술서 번역이 개발자에게 주는 영향에 대하여 (멜팅콘 Ver.)
 track: Track D
 time: "4:40 ~ 5:30"
 duration: 50분
 speakers:
   - name: 신상재
-    org: 개인
+    org: re:View
     desc: 과거는 SI 프로젝트 전성기의 소프트웨어 아키텍트, 현재는 생계형 기술서 번역가, IT 행사 티셔츠 콜렉터 겸 프로 오지라퍼
     image: ../assets/imgs/신상재.jpg
 ---
