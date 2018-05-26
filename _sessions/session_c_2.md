@@ -15,3 +15,4 @@ speakers:
 ## 개요
 게임 QA라는 직업에 대한 간략한 소개와 역사, 일반 소프트웨어 QA와 차이점과 풀어야 할 숙제까지, 게임 QA와 관련되어 알고 싶은 모든 것을 풀어드립니다. Continue? Insert Coin!
 ## 슬라이드 자료
+[PowerPoint 문서](../assets/files/진석준.pptx)

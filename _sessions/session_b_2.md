@@ -15,3 +15,4 @@ speakers:
 ## 개요
 모듈화, 단일파일컴포넌트, 라우팅, 서버통신, 상태관리, 배포
 ## 슬라이드 자료
+[외부 링크](http://slides.com/smilee/vue-start)

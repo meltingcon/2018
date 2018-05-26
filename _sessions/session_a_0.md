@@ -15,3 +15,4 @@ speakers:
 ## 개요
 Windows 10의 최신 버전인 2018년 4월 업데이트를 통하여 Ubuntu Linux를 Windows 10 환경 안에서 iTerm과 비슷하게, 다채롭게 활용하는 노하우를 소개합니다.
 ## 슬라이드 자료
+[PowerPoint 문서](../assets/files/남정현.pptx)
