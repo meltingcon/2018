@@ -5,52 +5,66 @@ icon: <i class="far fa-comments"></i><i class="far fa-calendar-check"></i>
 permalink: /schedules/
 ---
 <div class="alert alert-info" role="alert">
-  일정에 변동이 있을 수 있습니다. 자주 확인하셔서, 착오 없으시길 바랍니다.
+  (발표 제목을 클릭하여 발표 자료 관련 내용을 확인하실 수 있습니다.)
 </div>
 <div style="overflow: auto;" align="center">
-  <img style="padding: 16px;"
-      src="{{ site.baseurl }}/assets/imgs/schedule.png" />
-</div>
-<ul class="nav nav-fill">
-  {% assign tracks = site.sessions | group_by: 'track' %}
-  {% for track in tracks %}
-  {% unless track.name contains "," %}
-  <li class="nav-item">
-    <b><a class="nav-link active" data-toggle="collapse"
-    href="#collapse_{{ forloop.index0 }}" aria-controls="collapse_{{ forloop.index0 }}"
-    aria-expanded="false">
-    {{ track.name }} 세부 내용</a></b>
-  </li>
-  {% endunless %}
-  {% endfor %}
-</ul>
-<div id="tracks">
+<div class="program">
+    <table cellspacing="0" cellpadding="0" border="2">
+        <colgroup>
+            <col width="80px ">
+            <col width="170px">
+            <col width="170px">
+            <col width="170px">
+            <col width="170px">
+        </colgroup>
+
+        <tbody>
+        <tr>
+            <th class="section">&nbsp;</th>
+{% assign tracks = site.sessions | group_by: 'track' %}
 {% for track in tracks %}
 {% unless track.name contains "," %}
-<div id="collapse_{{ forloop.index0 }}"
-class="collapse {% if forloop.index0 == 1 %}show{% endif %}" data-parent="#tracks">
-  <div class="card-body">
-    <h2>{{ track.name }}</h2>
-    {% assign sessions = site.sessions | sort: 'order' %}
-    {% for session in sessions %}
-      {% if session.track contains track.name %}
-      <div class="card" style="margin-bottom: 8px;">
-        <div class="card-header">
-          {{ session.time }}
-        </div>
-        <div class="card-body">
-          <a href="{{ site.baseurl }}{{ session.url }}"><h5 class="card-title">{{ session.title }}</h5></a>
-          <ul>
-            {% for speaker in session.speakers %}
-            <li>{{ speaker.name }} - {{ speaker.org }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-      {% endif %}
-    {% endfor %}
-  </div>
-</div>
+            <td class="section">{{ track.name }}</td>
 {% endunless %}
 {% endfor %}
+        </tr>
+{% assign sessions_grouped_unsorted = site.sessions | group_by: 'order' %}
+{% assign sessions_grouped = sessions_grouped_unsorted | sort: 'name' %}
+{% for session_group in sessions_grouped %}
+{% unless session_group.items.size == 0 %}
+      {% if session_group.items.size == 1 %}
+        {% assign session = session_group.items[0] %}
+        <tr>
+            <th>{{ session.time }}</th>
+            <td colspan="4">
+                <a href="{{ site.baseurl }}{{ session.url }}">{{ session.title }}</a>
+                <span class="fontNameTitle">
+                    {% for speaker in session.speakers %}
+                        <li>{{ speaker.name }} - {{ speaker.org }}</li>
+                    {% endfor %}
+                </span>
+            </td>
+        </tr>
+      {% else %}
+        {% assign sessionSorted = session_group.items | sort: 'track' %}
+        <tr>
+            <th>{{ sessionSorted[0].time }}</th>
+        {% for session in sessionSorted %}
+            <td>
+                <a href="{{ site.baseurl }}{{ session.url }}">{{ session.title }}</a>
+                <span class="fontNameTitle">
+                    {% for speaker in session.speakers %}
+                        <li>{{ speaker.name }} - {{ speaker.org }}</li>
+                    {% endfor %}
+                </span>
+            </td>
+        {% endfor %}
+        </tr>
+
+      {% endif %}
+{% endunless %}
+{% endfor %}
+        </tbody>
+    </table>
+</div>
 </div>
