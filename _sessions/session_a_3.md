@@ -15,3 +15,4 @@ speakers:
 ## 개요
 Tensorflow, Keras 와 같은 Deep Learning 도구를 BigData Scale Data로 Scale Out 하여 Training 및 Serving 하는 개발 방법과 코드들, 그리고, 실행 결과를 공유합니다.
 ## 슬라이드 자료
+[PDF 파일](../assets/files/김훈동.pdf)
