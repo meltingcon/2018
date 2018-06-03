@@ -17,7 +17,6 @@ permalink: /schedules/
             <col width="170px">
             <col width="170px">
         </colgroup>
-
         <tbody>
         <tr>
             <th class="section">&nbsp;</th>
@@ -40,7 +39,7 @@ permalink: /schedules/
                 <a href="{{ site.baseurl }}{{ session.url }}">{{ session.title }}</a>
                 <span class="fontNameTitle">
                     {% for speaker in session.speakers %}
-                        <li>{{ speaker.name }} - {{ speaker.org }}</li>
+                        <li style="list-style-type: none;">{{ speaker.name }} - {{ speaker.org }}</li>
                     {% endfor %}
                 </span>
             </td>
@@ -54,13 +53,12 @@ permalink: /schedules/
                 <a href="{{ site.baseurl }}{{ session.url }}">{{ session.title }}</a>
                 <span class="fontNameTitle">
                     {% for speaker in session.speakers %}
-                        <li>{{ speaker.name }} - {{ speaker.org }}</li>
+                        <li style="list-style-type: none;">{{ speaker.name }} - {{ speaker.org }}</li>
                     {% endfor %}
                 </span>
             </td>
         {% endfor %}
         </tr>
-
       {% endif %}
 {% endunless %}
 {% endfor %}
